@@ -5,4 +5,4 @@
 
 
 
-Social Media Web Site Demo built using _Django4 by Example_ by Antonio Mele
+Built using [_Django4 by Example_](https://github.com/PacktPublishing/Django-4-by-example) written by Antonio Melé
