@@ -12,6 +12,12 @@ Pillow = "^9.2.0"
 python-decouple = "^3.6"
 MarkupSafe = "^2.1.1"
 requests = "2.28.1"
+dj-database-url = "^1.0.0"
+social-auth-app-django = "^5.0.0"
+django-extensions = "^3.2.1"
+Werkzeug = "^2.2.2"
+pyOpenSSL = "^22.1.0"
+easy-thumbnails = "^2.8.3"
 
 [tool.poetry.dev-dependencies]
 
