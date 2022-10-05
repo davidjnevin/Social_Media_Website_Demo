@@ -64,9 +64,11 @@ INSTALLED_APPS = [
     "images.apps.ImagesConfig",
     "easy_thumbnails",
     "actions.apps.ActionsConfig",
+    "debug_toolbar",
 ]
 
 MIDDLEWARE = [
+    "debug_toolbar.middleware.DebugToolbarMiddleware",
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
@@ -182,3 +184,13 @@ AUTHENTICATION_BACKENDS = [
 ABSOLUTE_URL_OVERRIDES = {
     "auth.user": lambda u: reverse_lazy("user_detail", args=[u.username])
 }
+
+INTERNAL_IPS = [
+    "127.0.0.1",
+]
+
+
+# Redis Settings
+REDIS_HOST = config("REDIS_HOST")
+REDIS_PORT = config("REDIS_PORT")
+REDIS_DB = config("REDIS_DB")
