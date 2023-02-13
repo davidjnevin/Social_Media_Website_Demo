@@ -6,3 +6,7 @@ git+https://github.com/python-social-auth/social-app-django.git@20fabcd7bd9a8a41
 git+https://github.com/django-extensions/django-extensions.git@25a41d8a3ecb24c009c5f4cac6010a091a3c91c8
 werkzeug==2.2.2
 pyOpenSSL==22.0.0
+python-decouple
+easy-thumbnails
+django-debug-toolbar
+redis==3.5.2
