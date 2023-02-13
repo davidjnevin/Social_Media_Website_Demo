@@ -299,3 +299,5 @@ cython_debug/
 #.idea/
 .DS_Store
 *.un~
+*.key
+*.crt
